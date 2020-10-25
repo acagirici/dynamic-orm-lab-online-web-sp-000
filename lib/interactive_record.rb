@@ -18,5 +18,5 @@ class InteractiveRecord
     column_names.compact
   end
   
-  def initiliaze()
+  def initiliaze(objects={})
 end

@@ -20,6 +20,6 @@ class InteractiveRecord
   
   def initiliaze(objects={})
     objects.each do |k, v|
-      self.send()
+      self.send("#k=")
   end
 end

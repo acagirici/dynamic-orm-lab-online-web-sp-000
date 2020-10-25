@@ -13,6 +13,7 @@ class InteractiveRecord
     column_names = []
     
     table_columns.each do |col|
+      column_names
     
   end
   

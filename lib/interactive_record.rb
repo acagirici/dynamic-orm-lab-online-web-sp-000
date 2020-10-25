@@ -19,4 +19,7 @@ class InteractiveRecord
   end
   
   def initiliaze(objects={})
+    objects.each do |k, v|
+      objects.send 
+  end
 end

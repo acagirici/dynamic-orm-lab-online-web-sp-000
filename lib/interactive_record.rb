@@ -16,7 +16,7 @@ class InteractiveRecord
       column_names << col|"name"|
     end
     
-    table_columns.compact
+    column_names.compact
     
   end
   

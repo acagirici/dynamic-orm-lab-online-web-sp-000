@@ -14,6 +14,9 @@ class InteractiveRecord
     
     table_columns.each do |col|
       column_names << col|"name"|
+    end
+    
+    table_columns.compact
     
   end
   
